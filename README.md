@@ -1,4 +1,4 @@
-# GeoFind
+# GeoFinder
 
 GeoFind is a Geographic Information System (GIS) project built with Spring Boot 3, MongoDB, Mongock, and Spring Data. It provides advanced search capabilities to discover nearby places based on geographic coordinates.
 
@@ -15,7 +15,7 @@ GeoFind is a Geographic Information System (GIS) project built with Spring Boot 
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/seyyedBagherMusavi/GeoFind.git
+git clone https://github.com/seyyedBagherMusavi/GeoFinder.git
 ```
 
 2. Navigate to the project directory and run mongo docker:
