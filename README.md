@@ -20,7 +20,7 @@ git clone https://github.com/seyyedBagherMusavi/GeoFind.git
 
 2. Navigate to the project directory and run mongo docker:
 ```shell
-cd GeoFind && docker-compose -f mongo.yml up -d
+cd GeoFind && docker-compose -f mongodb.yml up -d
 ```
 3.Build & run project with mvn command or anything else :)
 
