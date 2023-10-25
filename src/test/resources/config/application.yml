@@ -1,0 +1,12 @@
+
+mongock:
+  migration-scan-package:
+    - com.example.demo.dbmigrations
+  mongo-db:
+    read-concern: local
+    write-concern:
+      journal: false
+
+spring:
+  application:
+    name: demo
