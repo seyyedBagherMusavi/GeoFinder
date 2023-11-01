@@ -5,6 +5,7 @@ GeoFind is a Geographic Information System (GIS) project built with Spring Boot 
 ## Features
 
 - **Nearby Place Search**: Utilize the power of MongoDB's geospatial indexing and Spring Data's magic method `findByLocationNear` to search for nearby places based on a specific location.
+- **search in shape**: Utilize the power of MongoDB's geospatial indexing and Spring Data's magic method `findByLocationWithin` to search for  places in shape.
 - **Spatial Data Storage**: Store and manage spatial data efficiently using MongoDB's geospatial features within a Spring Boot application.
 - **Mongock Database Migration**: Seamlessly handle database migrations and data versioning using Mongock, ensuring smooth updates and maintenance of the GIS project.
 - **Easy Integration**: The project is designed to be easily integrated into any Spring Boot application, providing a solid foundation for GIS functionality.
