@@ -1,6 +1,7 @@
 package com.example.demo.domain;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.geo.GeoJsonPoint;
@@ -13,6 +14,7 @@ import java.io.Serializable;
 @Document(collection = "asset_location")
 @Data
 @Accessors(chain = true)
+@EqualsAndHashCode(callSuper=false)
 public class Place extends AbstractAuditingEntity implements Serializable {
 
     @Id

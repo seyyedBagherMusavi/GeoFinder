@@ -31,10 +31,6 @@ public class InitialSetupMigration {
         template.indexOps(Place.class)
                 .ensureIndex( new GeospatialIndex("location")
                         .typed(GeoSpatialIndexType.GEO_2DSPHERE));
-        template.save(new Place()
-                .setName("second Asset")
-                .setLocation(new GeoJsonPoint(22.4,23.6))
-            );
     }
 }
 

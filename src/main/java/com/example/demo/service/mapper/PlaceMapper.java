@@ -10,7 +10,7 @@ import org.mapstruct.control.DeepClone;
 
 
 @Mapper(uses = {GeoJsonPointResolver.class,
-    PointResolver.class})
+    PointResolver.class},componentModel = "spring")
 public interface PlaceMapper extends EntityMapper<PlaceDTO, Place>{
 
     @DeepClone
