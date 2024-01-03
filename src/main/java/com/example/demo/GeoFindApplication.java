@@ -8,6 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @EnableMongock
 @OpenAPIDefinition
+/**
+ * an application to manage shipping
+ */
 public class GeoFindApplication {
 
 	public static void main(String[] args) {
