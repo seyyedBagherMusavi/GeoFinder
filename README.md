@@ -25,6 +25,9 @@ cd GeoFind && docker-compose -f mongodb.yml up -d
 ```
 3.Build & run project with mvn command or anything else :)
 
+# Next step
+- manage shipping
+- add tools for VRPPD problem
 
 # 💻 Tech Stack:
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
